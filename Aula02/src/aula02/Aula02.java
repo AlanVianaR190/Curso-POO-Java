@@ -10,20 +10,18 @@ public class Aula02
         Caneta c1;
         c1 = new Caneta();
         
-        //chamada de atributo
+        // atribuindo valores diretamente aos atributos dessa instância.
         c1.cor = "Azul";
         c1.modelo = "Bic";
         c1.ponta = 0.5;
         c1.carga = 25;
         c1.tampada = false;
         
-        //chamada de metodo
+        //chamadando um metodo da classe instanciada
         c1.tampar();
-        
-        //
+
         c1.status();
-        
-        //
+
         c1.rabiscar();
         
         System.out.println(" ");

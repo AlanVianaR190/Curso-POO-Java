@@ -4,26 +4,26 @@ package aula02;
 //clase
 public class Caneta 
 {
-    //atributos
+    //atributos da classe
     public String modelo, cor;
+
+    /*Os atributo <private> podem ser usados apenas na classe correspondente*/
     private double ponta;
-    protected int carga;
     private boolean tampada;
+    protected int carga;
     
-    /*O atributo <private> pode ser usado apenas na clase corespondente*/
-    
-    //metodo <void> não possui retorno
+    //metodos <void> não possui retorno
     public void status()
     {
-        //
-        System.out.println("Uma caneta: " + this.cor);// <this> e uma referencia ao objeto chamado
+        //<this> e uma referencia a um atributo da classe
+        System.out.println("Uma caneta: " + this.cor);
         System.out.println("Do modelo: " + this.modelo);
         System.out.println("De ponta: " + this.ponta);
         System.out.println("Com a carga em: " + this.carga);
         System.out.println("Esta tampada? " + this.tampada);
     }
     
-    //metodo
+    //metodos da classe
     public void rabiscar()
     {
         if (this.tampada){
@@ -34,8 +34,6 @@ public class Caneta
             System.out.println("ESCREVA");
         }
     }
-    
-    //metodo
     protected void tampar()
     {
         if (!this.tampada)
@@ -48,8 +46,6 @@ public class Caneta
             System.out.println("Não e possivel tampar a caneta, pois ela ja esta com a tampa!");
         }
     }
-    
-    //metodo
     protected void destampar()
     {
         if (this.tampada)
@@ -62,5 +58,4 @@ public class Caneta
             System.out.println("Não e possivel destampar a caneta, pois ela ja esta sem a tampa!");
         }
     }
-    
 }
