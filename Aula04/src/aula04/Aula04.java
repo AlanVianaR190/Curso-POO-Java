@@ -7,7 +7,7 @@ public class Aula04
     public static void main(String[] args)
     {
         /*instanciando o objeto da classe em uma linha apenas
-        o erro e porque não esta respeitando o metodo construtor*/
+        o erro e porque não esta respeitando o metodo construtor que possui parametros*/
         Caneta c1 = new Caneta();
         
         //
@@ -15,14 +15,15 @@ public class Aula04
         c1.modelo = "Bic";
         
         c1.setPonta(1.5);
-        c1.ponta = 1.5;  /*Como o objeto ponta da clase Caneta e privado
+        //c1.ponta = 1.5;
+        /*Como o atributo ponta da clase Caneta e privado
         não e possivel ter acesso sem o <set>*/
         
         c1.status();
         System.out.println("SOBRE A CANETA: ");
         
-        System.out.println("O modelo e: " + c1.modelo + " com a ponta " + c1.ponta);/*Aqui tambem
-        como o atributo e privado não e possivel ter o acesso sem o <get>*/
+        //System.out.println("O modelo e: " + c1.modelo + " com a ponta " + c1.ponta);
+        /*Aqui tambem como o atributo e privado não e possivel ter o acesso sem o <get>*/
 
         System.out.println("O modelo e: " + c1.getModelo() + " com a ponta " + c1.getPonta());
         
