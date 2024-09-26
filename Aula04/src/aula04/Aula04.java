@@ -1,15 +1,13 @@
 
 package aula04;
 
-import javax.swing.JOptionPane
-
 public class Aula04
 {
 
     public static void main(String[] args)
     {
-        //instanciando o objeto da classe em uma linha apenas
-        //o erro e porque não esta respeitando o metodo construtor
+        /*instanciando o objeto da classe em uma linha apenas
+        o erro e porque não esta respeitando o metodo construtor*/
         Caneta c1 = new Caneta();
         
         //

@@ -31,7 +31,7 @@ public class Aula05 {
         //
         c2.exibirStats();
 
-        //Cria uma nova instância da classe ContaBanco, e uma instancia da classe Scanner
+        //Criando uma nova instância da classe ContaBanco, e uma instancia da classe Scanner
         ContaBanco c3 = new ContaBanco();
         Scanner entrada = new Scanner(System.in);
 
@@ -63,7 +63,5 @@ public class Aula05 {
         else {
             System.out.println("Opção invalida!");
         }
-
     }
-    
 }

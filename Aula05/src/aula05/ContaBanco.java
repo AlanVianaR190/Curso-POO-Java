@@ -4,7 +4,7 @@ package aula05;
 //
 public class ContaBanco
 {
-    //objetos
+    //atributos
     public int numConta;
     protected String tipo;
     private String dono;
@@ -19,7 +19,7 @@ public class ContaBanco
         this.saldo = 0;
     }
     
-    //metodos personalizados
+    //metodos personalizados da classe
     public void abrirConta(String t)
     {
         //
@@ -39,7 +39,6 @@ public class ContaBanco
         //
         System.out.println("Conta aberta com sucesso");
     }
-    
     public void fecharConta()
     {
         //
@@ -57,7 +56,6 @@ public class ContaBanco
             System.out.println("Conta fechada com sucesso");
         }
     }
-    
     public void depositar(double v)
     {
         //
@@ -71,7 +69,6 @@ public class ContaBanco
             System.out.println("Não e possivel fazer o deposito");
         }
     }
-    
     public void sacar(double v)
     {
         //
@@ -93,7 +90,6 @@ public class ContaBanco
             System.out.println("Não foi possivle fazer o saque");
         }
     }
-    
     public void pagarMensal()
     {
         //
@@ -122,14 +118,13 @@ public class ContaBanco
             {
                 System.out.println("Não foi possivel fazer o pagamento");
             }
-            
+
         }
         else
         {
             System.out.println("Não foi possivel fazer o pagamento");
         }
     }
-    
     public void exibirStats()
     {
         //
@@ -141,8 +136,6 @@ public class ContaBanco
         System.out.println("Status da conta: " + this.getStatus());
         System.out.println("");
     }
-    
-    //metodos especiais 
     
     //metodo getters, metodo acessor
     public int getNumConta() {
@@ -185,5 +178,4 @@ public class ContaBanco
     public void setStatus(boolean status) {
         this.status = status;
     }
-    
 }

@@ -3,13 +3,13 @@ package aula04;
 
 public class Caneta 
 {
-    //objetos
+    //atributos
     public String modelo;
     private double ponta;
     private String cor;
     private boolean tampada;
       
-    //Este e um metodo construtor com parametro
+    //Metodo construtor com parametro
     public Caneta(String m, double p, String c)
     {
         this.setModelo(m);
@@ -20,37 +20,30 @@ public class Caneta
         this.tampar();
     }
     
-    // metodo geter, metodo de acesso
+    // metodo geter (metodo de acesso)
     public String getModelo()
     {
         return this.modelo;
     }
     
-    //metodo seter, metodo modificador não possui retorno
+    //metodo seter (metodo modificador)
     public void setModelo(String m)
     {
         this.modelo = m;
     }
-    
-    //
+
     public double getPonta()
     {
         return this.ponta;
     }
-    
-    //
     public void setPonta(double p)
     {
         this.ponta = p;
     }
-    
-    //
     public void tampar()
     {
         this.tampada = true;
     }
-    
-    //
     public void destampar()
     {
         this.tampada = false;
