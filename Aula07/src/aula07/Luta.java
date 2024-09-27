@@ -5,16 +5,17 @@ import java.util.Random;
 
 public class Luta
 {
-    /*estes atributos são uma instancia de outra classe, assim e possivel utilizar os seus metodos */
+    /* Estes atributos são referências a objetos da classe Lutador,
+   o que permite acessar os métodos definidos nessa classe */
     private Lutador desafiado;
     private Lutador desafiante;
     
-    //atributos do tipo primitivo
+    //atributos
     private int rounds;
     private boolean aprovada;
     
     
-    //metodos especiais
+    //metodos getters e setters
     public Lutador getDesafiado() {
         return desafiado;
     }
@@ -61,6 +62,7 @@ public class Luta
         else
         {
             this.setAprovada(false);
+
             //<null> e vazio, não existe
             this.setDesafiado(null);
             this.setDesafiante(null);
@@ -73,6 +75,7 @@ public class Luta
         if (this.getAprovada() == true){
             
             System.out.println("DESAFIADO: ");
+
             //utilizando metodo da classe instanciada nos atributos desafiante e desafiado
             this.desafiado.apresentar();
             System.out.println("DESAFIANTE: ");

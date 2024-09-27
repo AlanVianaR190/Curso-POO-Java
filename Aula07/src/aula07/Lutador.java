@@ -21,7 +21,8 @@ public class Lutador
         this.idade = id;
         this.altura = al;
         
-        //estou recebendo o peso, que ira analisar o peso para clasificar a categoria
+        /*recebendo o peso, que ira ser analisado
+        para clasificar a categoria (ver metodo setPeso())*/
         this.setPeso(pe);
         
         this.vitorias = vi;
@@ -29,7 +30,7 @@ public class Lutador
         this.empates = em;
     }
     
-    //metodos especiais
+    //metodos getters e setters
     public String getNome() {
         return nome;
     }
@@ -68,8 +69,8 @@ public class Lutador
 
     public void setPeso(double peso)
     {
-        //recebendo o peso ira analisar o peso para clasificar a categoria
         this.peso = peso;
+
         //metodo interno
         this.setCategoria();
     }
@@ -78,8 +79,7 @@ public class Lutador
         return categoria;
     }
 
-    //e possivel adicionar coisas nestes metodos
-    //set categoria e um metodo interno, não tera parametro
+    //
     private void setCategoria() {
         if (this.getPeso() < 52.2)
         {

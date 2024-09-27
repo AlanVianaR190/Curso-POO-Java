@@ -15,14 +15,14 @@ public class Aula04
         c1.modelo = "Bic";
         
         c1.setPonta(1.5);
-        //c1.ponta = 1.5;
+        c1.ponta = 1.5;
         /*Como o atributo ponta da clase Caneta e privado
         não e possivel ter acesso sem o <set>*/
         
         c1.status();
         System.out.println("SOBRE A CANETA: ");
         
-        //System.out.println("O modelo e: " + c1.modelo + " com a ponta " + c1.ponta);
+        System.out.println("O modelo e: " + c1.modelo + " com a ponta " + c1.ponta);
         /*Aqui tambem como o atributo e privado não e possivel ter o acesso sem o <get>*/
 
         System.out.println("O modelo e: " + c1.getModelo() + " com a ponta " + c1.getPonta());

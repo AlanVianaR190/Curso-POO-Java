@@ -1,7 +1,9 @@
 
 package aula06;
 
-//esta classe implementa a interface <Controlador>, ela fornece implementações para os metodos da INTERFACE  
+/*esta classe implementa a interface <Controlador>,
+ela fornece implementações para os metodos da INTERFACE*/
+
 public class ControleRemoto implements Controlador
 {
     //atributos
@@ -17,7 +19,7 @@ public class ControleRemoto implements Controlador
         this.setTocando(false);
     }
     
-    //metodos especiais
+    //metodos getters e setters
     private int getVolume() {
         return volume;
     }
@@ -44,7 +46,7 @@ public class ControleRemoto implements Controlador
 
     //metodos da interface
     
-    //significa sobescrever
+    //significa sobrescrever
     @Override
     public void ligar() 
     {
@@ -131,5 +133,4 @@ public class ControleRemoto implements Controlador
             this.setTocando(false);
         }
     }
-    
 }
