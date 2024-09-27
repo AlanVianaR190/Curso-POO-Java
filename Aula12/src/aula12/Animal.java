@@ -4,7 +4,7 @@ package aula12;
 //classe abstrata
 public abstract class Animal
 {
-    //
+    /*atributos protegidos tem acesso permitido na mesma classe, subclasses, e classes DO MESMO PACOTE.*/
     protected double peso;
     protected int idade;
     protected int membros;

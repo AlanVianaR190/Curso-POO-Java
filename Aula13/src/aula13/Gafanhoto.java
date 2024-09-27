@@ -40,6 +40,4 @@ public class Gafanhoto extends Pessoa
         //chamando a super instancia
         return "Gafanhoto: " + super.toString() + "\nlogin = " + login + ", totAssist = " + totAssist + ';';
     }
-    
-    
 }

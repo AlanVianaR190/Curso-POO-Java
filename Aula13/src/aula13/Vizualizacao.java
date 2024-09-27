@@ -41,7 +41,7 @@ public class Vizualizacao
     }
     
     
-    //metodo sobrecarga
+    //sobrecarga de metodo
     public void avaliar()
     {
         this.filme.setAvaliacao(5);
@@ -73,5 +73,4 @@ public class Vizualizacao
             total = 10;
         }
     }
-
 }

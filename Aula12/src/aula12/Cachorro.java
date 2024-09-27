@@ -10,7 +10,7 @@ public class Cachorro extends Lobo
         System.out.println("Au au au...");
     }
     
-    //metodos sobrecarga
+    //sobrecarga de metodos
     public void reagir(String frase)
     {
         if ("toma comida".equals(frase) || "ola".equals(frase))

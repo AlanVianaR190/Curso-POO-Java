@@ -1,7 +1,7 @@
 
 package aula13;
 
-//implementando a interface de 
+//implementando a interface de AcoesVideo
 public class Video implements AcoesVideo
 {
     //atributos
