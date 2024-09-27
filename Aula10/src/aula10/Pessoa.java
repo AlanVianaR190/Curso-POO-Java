@@ -1,6 +1,8 @@
 
 package aula10;
 
+/* classe abstrata, não é possivel instancia-la é
+usada quando você quer definir um comportamento comum para várias subclasses*/
 public abstract class Pessoa 
 {
     //atributs

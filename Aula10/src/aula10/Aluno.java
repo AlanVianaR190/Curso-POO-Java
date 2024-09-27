@@ -1,9 +1,9 @@
 
 package aula10;
 
-/*acrescentando a palavra final depois da palavra de acessibilidade evita 
-que a CLASSE possa ser uma extenção de outra classe, ou seja ela não pode ter
-filhos*/
+/* acrescentando a palavra final depois da palavra de acessibilidade (public, private ou protected)
+evita que a CLASSE possa ser uma extenção de outra classe, ou seja ela não pode ter
+filhos */
 
 public class Aluno extends Pessoa
 {

@@ -22,7 +22,7 @@ public class Livro implements Publicacao
         this.leitor = leitr;
     }
     
-    //metodos especiais
+    //metodos getters e setters
     public String getTitulo() 
     {
         return titulo;
@@ -83,7 +83,7 @@ public class Livro implements Publicacao
         this.leitor = leitor;
     }
     
-    //metodo toString
+    //metodo criado a partir do metodo toString()
     public String detalhes()
     {
         return "Livro{" + "titulo = " + titulo + "\n, autor = "
@@ -91,7 +91,7 @@ public class Livro implements Publicacao
                 + pagAtual + "\n, aberto = " + aberto + "\n, leitor = " + leitor.getNome() 
                 + "\n, idade = " + leitor.getIdade() + "\n, sexo = " + leitor.getSexo() +'}';
     }
-    
+
     //metodos da interface
     @Override
     public void abrir()

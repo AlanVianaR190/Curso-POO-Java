@@ -6,7 +6,7 @@ public class Aula10
 
     public static void main(String[] args)
     {
-        //tentando instanciar um objeto da classe ABSTRATA pessoa, não e possivel
+        //não e possivel instanciar um objeto da classe ABSTRATA pessoa,
         //Pessoa p1 = new Pessoa();
         
         /*instanciando um objeto da classe Visitante eu tenho acesso a metodos

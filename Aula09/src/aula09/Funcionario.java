@@ -8,7 +8,6 @@ public class Funcionario extends Pessoa
     private boolean trabalhando;
     
     //metodos getters and setters
-
     public String getSetor() {
         return setor;
     }
@@ -37,6 +36,4 @@ public class Funcionario extends Pessoa
             this.trabalhando = true;
         }
     }
-    
-    
 }
