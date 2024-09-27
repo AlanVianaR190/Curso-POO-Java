@@ -10,7 +10,7 @@ public class Canguru extends Mamifero
         System.out.println("Saltando.");
     }
     
-    //
+    //metodo classe
     public void usarBolsa()
     {
         System.out.println("Usando bolsa.");

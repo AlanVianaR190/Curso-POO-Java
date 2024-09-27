@@ -3,7 +3,7 @@ package aula11;
 
 public class Cachorro extends Mamifero
 {
-    //
+    //metodo da classe
     public void enterrarOsso()
     {
         System.out.println("Enterrando osso... ");
@@ -13,7 +13,8 @@ public class Cachorro extends Mamifero
     {
         System.out.println("Abanando rabo... ");
     }
-    
+
+    //
     @Override
     public void emitirSom()
     {

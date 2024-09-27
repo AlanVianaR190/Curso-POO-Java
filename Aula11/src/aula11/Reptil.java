@@ -3,7 +3,7 @@ package aula11;
 
 public class Reptil extends Animal
 {
-    //atributo
+    //atributo da claase
     private String corEscama;
     
     //

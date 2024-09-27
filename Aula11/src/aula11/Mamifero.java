@@ -3,7 +3,7 @@ package aula11;
 
 public class Mamifero extends Animal
 {
-    //atributos
+    //atributos da classe
     private String corPelo;
     
     //metodo getter and setter

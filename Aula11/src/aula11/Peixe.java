@@ -4,7 +4,7 @@ package aula11;
 
 public class Peixe extends Animal
 {
-    //atributo
+    //atributos da classe
     private String corEscama;
     
     //
@@ -16,7 +16,7 @@ public class Peixe extends Animal
         this.corEscama = corEscama;
     }
     
-    //metodo 
+    //metodo da classe
     public void soltarBolha()
     {
         System.out.println("Soltou uma bolha");

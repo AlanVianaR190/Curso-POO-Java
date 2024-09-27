@@ -4,7 +4,7 @@ package aula11;
 
 public class Ave extends Animal
 {
-    //atributos
+    //atributos da classe
     private String corPena;
     
     //
@@ -16,13 +16,13 @@ public class Ave extends Animal
         this.corPena = corPena;
     }
     
-    //metodo
+    //metodo da classe
     public void fazerNinho()
     {
         System.out.println("Construiu um  ninho");
     }
     
-    //metodos sobrepostos
+    //metodos sobrepostos da classe animal
     @Override
     public void locomover() 
     {

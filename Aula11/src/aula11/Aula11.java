@@ -7,7 +7,7 @@ public class Aula11 {
     {
         /*Não e possivel criar o objeto da classe Animal, pois Animal e uma
         classe abstrata*/
-        //Animal a = new Animal();
+        Animal a = new Animal();
         
         //
         Mamifero m = new Mamifero();
